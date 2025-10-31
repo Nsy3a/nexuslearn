@@ -5,6 +5,8 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Community](https://img.shields.io/badge/Join-Community-blueviolet)](https://github.com/Nsy3a/nexuslearn/discussions)
 
+[中文版 | Chinese Version](./README.zh.md)
+
 **NexusLearn** is a revolutionary, self-evolving decentralized learning ecosystem driven by the synergy of AI and community collaboration. Our vision is to break down knowledge barriers, transforming individual quests for knowledge into reusable public intellectual wealth through an innovative economic model.
 
 > **Core Vision**: To build a world where every participant is a learner, contributor, and beneficiary, collectively creating and sharing knowledge.
@@ -107,3 +109,7 @@ Have questions or ideas? We'd love to hear from you!
 
 *   **Report a Bug or Request a Feature**: [Create an issue on GitHub](https://github.com/Nsy3a/nexuslearn/issues/new/choose)
 *   **Join the Discussion**: [Participate in our GitHub Discussions](https://github.com/Nsy3a/nexuslearn/discussions)
+
+## Other Languages
+
+*   [中文版 | Chinese Version](./README.zh.md)
