@@ -5,6 +5,8 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Community](https://img.shields.io/badge/Join-Community-blueviolet)](https://github.com/Nsy3a/nexuslearn/discussions)
 
+[English Version——英文版](./README.md)
+
 **NexusLearn** 是一个革命性的、自我进化的去中心化学习生态系统，其核心由人工智能与社区协作的强大合力驱动。我们的愿景是打破知识壁垒，通过创新的经济模型，将个人的知识探索转化为可复用的公共知识财富。
 
 > **核心愿景**：构建一个人人皆为学习者、贡献者和受益者的世界，共同创造和分享知识。
@@ -107,3 +109,7 @@
 
 *   **报告 Bug 或提出功能请求**: [在 GitHub 上创建一个 issue](https://github.com/Nsy3a/nexuslearn/issues/new/choose)
 *   **加入讨论**: [参与我们的 GitHub Discussions](https://github.com/Nsy3a/nexuslearn/discussions)
+
+## 其他语言版本
+
+*   [English Version | 英文版](./README.md)
