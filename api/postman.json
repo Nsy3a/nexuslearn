@@ -1,0 +1,85 @@
+{
+  "info": {
+    "name": "NexusLearn API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "创建目标",
+      "request": {
+        "method": "POST",
+        "header": [{ "key": "Content-Type", "value": "application/json" }],
+        "body": {
+          "mode": "raw",
+          "raw": "{\"userId\":\"demo\",\"goal\":\"CPA\",\"skills\":[\"会计基础\",\"练习题\"]}"
+        },
+        "url": "http://localhost:8080/goals"
+      }
+    },
+    {
+      "name": "生成计划",
+      "request": {
+        "method": "POST",
+        "header": [{ "key": "Content-Type", "value": "application/json" }],
+        "body": {
+          "mode": "raw",
+          "raw": "{\"userId\":\"demo\",\"timeBudgetDays\":7}"
+        },
+        "url": "http://localhost:8080/plans"
+      }
+    },
+    {
+      "name": "搜索资料",
+      "request": {
+        "method": "GET",
+        "url": "http://localhost:8080/search?q=会计&userId=demo&filters=%7B%22subject%22%3A%22会计%22%7D"
+      }
+    },
+    {
+      "name": "创建需求",
+      "request": {
+        "method": "POST",
+        "header": [{ "key": "Content-Type", "value": "application/json" }],
+        "body": {
+          "mode": "raw",
+          "raw": "{\"title\":\"生成登录页\",\"description\":\"Vue3方案\",\"techStack\":[\"Vue3\"],\"budgetStablecoin\":100}"
+        },
+        "url": "http://localhost:8080/demands"
+      }
+    },
+    {
+      "name": "验收并铸造NFT",
+      "request": {
+        "method": "POST",
+        "header": [{ "key": "Content-Type", "value": "application/json" }],
+        "body": {
+          "mode": "raw",
+          "raw": "{\"demandId\":\"dmd_xxx\",\"contributions\":[{\"address\":\"0xabc\",\"share\":1.0}],\"contentHash\":\"ipfs://QmFinal\",\"summary\":\"登录方案\"}"
+        },
+        "url": "http://localhost:8080/accept"
+      }
+    },
+    {
+      "name": "提案列表",
+      "request": { "method": "GET", "url": "http://localhost:8080/governance/proposals" }
+    },
+    {
+      "name": "提交提案",
+      "request": {
+        "method": "POST",
+        "header": [{ "key": "Content-Type", "value": "application/json" }],
+        "body": { "mode": "raw", "raw": "{\"description\":\"提高资料质量评分权重\",\"targets\":[],\"values\":[],\"calldatas\":[]}" },
+        "url": "http://localhost:8080/governance/propose"
+      }
+    },
+    {
+      "name": "投票",
+      "request": {
+        "method": "POST",
+        "header": [{ "key": "Content-Type", "value": "application/json" }],
+        "body": { "mode": "raw", "raw": "{\"proposalId\":\"1\",\"support\":1}" },
+        "url": "http://localhost:8080/governance/vote"
+      }
+    }
+  ]
+}

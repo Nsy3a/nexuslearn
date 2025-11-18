@@ -1,0 +1,215 @@
+openapi: 3.0.3
+info:
+  title: NexusLearn API
+  version: 1.0.0
+servers:
+  - url: http://localhost:8080
+paths:
+  /goals:
+    post:
+      summary: 创建学习目标
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                userId: { type: string }
+                goal: { type: string }
+                skills: { type: array, items: { type: string } }
+      responses:
+        '200':
+          description: 成功
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  userId: { type: string }
+                  goal: { type: string }
+                  skills: { type: array, items: { type: string } }
+  /plans:
+    post:
+      summary: 生成学习计划
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                userId: { type: string }
+                timeBudgetDays: { type: integer }
+                skills: { type: array, items: { type: string } }
+      responses:
+        '200':
+          description: 计划
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  planId: { type: string }
+                  userId: { type: string }
+                  schedule:
+                    type: array
+                    items:
+                      type: object
+                      properties:
+                        day: { type: integer }
+                        topic: { type: string }
+  /search:
+    get:
+      summary: 搜索资料
+      parameters:
+        - { name: q, in: query, schema: { type: string } }
+        - { name: userId, in: query, schema: { type: string } }
+        - { name: filters, in: query, schema: { type: string } }
+      responses:
+        '200':
+          description: 搜索结果
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  results:
+                    type: array
+                    items:
+                      type: object
+                      properties:
+                        id: { type: string }
+                        url: { type: string }
+                        rank: { type: number }
+                        recommend: { type: string }
+  /demands:
+    post:
+      summary: 创建需求
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                title: { type: string }
+                description: { type: string }
+                techStack: { type: array, items: { type: string } }
+                budgetStablecoin: { type: number }
+      responses:
+        '200':
+          description: 需求与Escrow
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  demand:
+                    type: object
+                    properties:
+                      id: { type: string }
+                      title: { type: string }
+                      status: { type: string }
+                  escrow:
+                    type: object
+                    properties:
+                      escrowId: { type: string }
+                      status: { type: string }
+  /accept:
+    post:
+      summary: 验收并铸造NFT
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                demandId: { type: string }
+                contributions:
+                  type: array
+                  items:
+                    type: object
+                    properties:
+                      address: { type: string }
+                      share: { type: number }
+                contentHash: { type: string }
+                summary: { type: string }
+      responses:
+        '200':
+          description: 验收结果
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  accepted: { type: boolean }
+                  nft:
+                    type: object
+                    properties:
+                      nftId: { type: string }
+                      contentHash: { type: string }
+                      ownership: { type: string }
+  /governance/proposals:
+    get:
+      summary: 提案列表
+      responses:
+        '200':
+          description: 提案事件
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  items:
+                    type: array
+                    items:
+                      type: object
+                      properties:
+                        id: { type: string }
+                        description: { type: string }
+  /governance/propose:
+    post:
+      summary: 提交提案
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                description: { type: string }
+                targets: { type: array, items: { type: string } }
+                values: { type: array, items: { type: integer } }
+                calldatas: { type: array, items: { type: string } }
+      responses:
+        '200':
+          description: 交易
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  tx: { type: string }
+  /governance/vote:
+    post:
+      summary: 投票
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                proposalId: { type: string }
+                support: { type: integer }
+      responses:
+        '200':
+          description: 交易
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  tx: { type: string }
