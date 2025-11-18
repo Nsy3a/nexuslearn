@@ -1,0 +1,24 @@
+[
+  {
+    "id": "friend_user_001",
+    "name": "张三",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Zhang",
+    "bio": "Web3开发者，专注于智能合约开发",
+    "skills": ["Solidity", "JavaScript", "Vue.js"],
+    "contribution": 1250,
+    "level": 5,
+    "isOnline": true,
+    "lastSeen": 1763408970189
+  },
+  {
+    "id": "friend_user_002",
+    "name": "李四",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Li",
+    "bio": "AI研究员，机器学习专家",
+    "skills": ["Python", "TensorFlow", "区块链"],
+    "contribution": 980,
+    "level": 4,
+    "isOnline": false,
+    "lastSeen": 1763405670189
+  }
+]

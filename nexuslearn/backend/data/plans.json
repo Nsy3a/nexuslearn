@@ -1,0 +1,718 @@
+[
+  {
+    "planId": "plan_n81oys64",
+    "userId": "u1",
+    "goal": "CPA",
+    "schedule": [
+      {
+        "day": 1,
+        "topic": "会计基础",
+        "resources": [],
+        "practice": {
+          "items": 10,
+          "difficulty": "中"
+        }
+      },
+      {
+        "day": 2,
+        "topic": "练习题",
+        "resources": [],
+        "practice": {
+          "items": 10,
+          "difficulty": "中"
+        }
+      },
+      {
+        "day": 3,
+        "topic": "复盘",
+        "resources": [],
+        "practice": {
+          "items": 10,
+          "difficulty": "中"
+        }
+      }
+    ]
+  },
+  {
+    "planId": "plan_1nw8ixzn",
+    "userId": "u1",
+    "goal": "CPA",
+    "schedule": [
+      {
+        "day": 1,
+        "topic": "会计基础",
+        "resources": [],
+        "practice": {
+          "items": 10,
+          "difficulty": "中"
+        }
+      },
+      {
+        "day": 2,
+        "topic": "练习题",
+        "resources": [],
+        "practice": {
+          "items": 10,
+          "difficulty": "中"
+        }
+      },
+      {
+        "day": 3,
+        "topic": "复盘",
+        "resources": [],
+        "practice": {
+          "items": 10,
+          "difficulty": "中"
+        }
+      },
+      {
+        "day": 4,
+        "topic": "会计基础",
+        "resources": [],
+        "practice": {
+          "items": 10,
+          "difficulty": "中"
+        }
+      },
+      {
+        "day": 5,
+        "topic": "练习题",
+        "resources": [],
+        "practice": {
+          "items": 10,
+          "difficulty": "中"
+        }
+      },
+      {
+        "day": 6,
+        "topic": "复盘",
+        "resources": [],
+        "practice": {
+          "items": 10,
+          "difficulty": "中"
+        }
+      },
+      {
+        "day": 7,
+        "topic": "会计基础",
+        "resources": [],
+        "practice": {
+          "items": 10,
+          "difficulty": "中"
+        }
+      }
+    ]
+  },
+  {
+    "planId": "plan_gxj6tdyt",
+    "userId": "u1",
+    "goal": "小学算数",
+    "schedule": [
+      {
+        "day": 1,
+        "resources": [],
+        "practice": {
+          "items": 10,
+          "difficulty": "中"
+        }
+      },
+      {
+        "day": 2,
+        "resources": [],
+        "practice": {
+          "items": 10,
+          "difficulty": "中"
+        }
+      },
+      {
+        "day": 3,
+        "resources": [],
+        "practice": {
+          "items": 10,
+          "difficulty": "中"
+        }
+      },
+      {
+        "day": 4,
+        "resources": [],
+        "practice": {
+          "items": 10,
+          "difficulty": "中"
+        }
+      },
+      {
+        "day": 5,
+        "resources": [],
+        "practice": {
+          "items": 10,
+          "difficulty": "中"
+        }
+      },
+      {
+        "day": 6,
+        "resources": [],
+        "practice": {
+          "items": 10,
+          "difficulty": "中"
+        }
+      },
+      {
+        "day": 7,
+        "resources": [],
+        "practice": {
+          "items": 10,
+          "difficulty": "中"
+        }
+      },
+      {
+        "day": 8,
+        "resources": [],
+        "practice": {
+          "items": 10,
+          "difficulty": "中"
+        }
+      },
+      {
+        "day": 9,
+        "resources": [],
+        "practice": {
+          "items": 10,
+          "difficulty": "中"
+        }
+      },
+      {
+        "day": 10,
+        "resources": [],
+        "practice": {
+          "items": 10,
+          "difficulty": "中"
+        }
+      },
+      {
+        "day": 11,
+        "resources": [],
+        "practice": {
+          "items": 10,
+          "difficulty": "中"
+        }
+      },
+      {
+        "day": 12,
+        "resources": [],
+        "practice": {
+          "items": 10,
+          "difficulty": "中"
+        }
+      },
+      {
+        "day": 13,
+        "resources": [],
+        "practice": {
+          "items": 10,
+          "difficulty": "中"
+        }
+      },
+      {
+        "day": 14,
+        "resources": [],
+        "practice": {
+          "items": 10,
+          "difficulty": "中"
+        }
+      }
+    ]
+  },
+  {
+    "planId": "plan_grd2s9w9",
+    "userId": "u1",
+    "goal": "小学算数",
+    "schedule": [
+      {
+        "day": 1,
+        "resources": [],
+        "practice": {
+          "items": 10,
+          "difficulty": "中"
+        }
+      },
+      {
+        "day": 2,
+        "resources": [],
+        "practice": {
+          "items": 10,
+          "difficulty": "中"
+        }
+      },
+      {
+        "day": 3,
+        "resources": [],
+        "practice": {
+          "items": 10,
+          "difficulty": "中"
+        }
+      },
+      {
+        "day": 4,
+        "resources": [],
+        "practice": {
+          "items": 10,
+          "difficulty": "中"
+        }
+      },
+      {
+        "day": 5,
+        "resources": [],
+        "practice": {
+          "items": 10,
+          "difficulty": "中"
+        }
+      },
+      {
+        "day": 6,
+        "resources": [],
+        "practice": {
+          "items": 10,
+          "difficulty": "中"
+        }
+      },
+      {
+        "day": 7,
+        "resources": [],
+        "practice": {
+          "items": 10,
+          "difficulty": "中"
+        }
+      },
+      {
+        "day": 8,
+        "resources": [],
+        "practice": {
+          "items": 10,
+          "difficulty": "中"
+        }
+      },
+      {
+        "day": 9,
+        "resources": [],
+        "practice": {
+          "items": 10,
+          "difficulty": "中"
+        }
+      },
+      {
+        "day": 10,
+        "resources": [],
+        "practice": {
+          "items": 10,
+          "difficulty": "中"
+        }
+      },
+      {
+        "day": 11,
+        "resources": [],
+        "practice": {
+          "items": 10,
+          "difficulty": "中"
+        }
+      },
+      {
+        "day": 12,
+        "resources": [],
+        "practice": {
+          "items": 10,
+          "difficulty": "中"
+        }
+      },
+      {
+        "day": 13,
+        "resources": [],
+        "practice": {
+          "items": 10,
+          "difficulty": "中"
+        }
+      },
+      {
+        "day": 14,
+        "resources": [],
+        "practice": {
+          "items": 10,
+          "difficulty": "中"
+        }
+      }
+    ]
+  },
+  {
+    "planId": "plan_1q0hullq",
+    "userId": "u1",
+    "goal": "小学算数",
+    "schedule": [
+      {
+        "day": 1,
+        "resources": [],
+        "practice": {
+          "items": 10,
+          "difficulty": "中"
+        }
+      },
+      {
+        "day": 2,
+        "resources": [],
+        "practice": {
+          "items": 10,
+          "difficulty": "中"
+        }
+      },
+      {
+        "day": 3,
+        "resources": [],
+        "practice": {
+          "items": 10,
+          "difficulty": "中"
+        }
+      },
+      {
+        "day": 4,
+        "resources": [],
+        "practice": {
+          "items": 10,
+          "difficulty": "中"
+        }
+      },
+      {
+        "day": 5,
+        "resources": [],
+        "practice": {
+          "items": 10,
+          "difficulty": "中"
+        }
+      },
+      {
+        "day": 6,
+        "resources": [],
+        "practice": {
+          "items": 10,
+          "difficulty": "中"
+        }
+      },
+      {
+        "day": 7,
+        "resources": [],
+        "practice": {
+          "items": 10,
+          "difficulty": "中"
+        }
+      },
+      {
+        "day": 8,
+        "resources": [],
+        "practice": {
+          "items": 10,
+          "difficulty": "中"
+        }
+      },
+      {
+        "day": 9,
+        "resources": [],
+        "practice": {
+          "items": 10,
+          "difficulty": "中"
+        }
+      },
+      {
+        "day": 10,
+        "resources": [],
+        "practice": {
+          "items": 10,
+          "difficulty": "中"
+        }
+      },
+      {
+        "day": 11,
+        "resources": [],
+        "practice": {
+          "items": 10,
+          "difficulty": "中"
+        }
+      },
+      {
+        "day": 12,
+        "resources": [],
+        "practice": {
+          "items": 10,
+          "difficulty": "中"
+        }
+      },
+      {
+        "day": 13,
+        "resources": [],
+        "practice": {
+          "items": 10,
+          "difficulty": "中"
+        }
+      },
+      {
+        "day": 14,
+        "resources": [],
+        "practice": {
+          "items": 10,
+          "difficulty": "中"
+        }
+      }
+    ]
+  },
+  {
+    "planId": "plan_qbnbqsy9",
+    "userId": "u1",
+    "goal": "小学算数",
+    "schedule": [
+      {
+        "day": 1,
+        "resources": [],
+        "practice": {
+          "items": 10,
+          "difficulty": "中"
+        }
+      },
+      {
+        "day": 2,
+        "resources": [],
+        "practice": {
+          "items": 10,
+          "difficulty": "中"
+        }
+      },
+      {
+        "day": 3,
+        "resources": [],
+        "practice": {
+          "items": 10,
+          "difficulty": "中"
+        }
+      },
+      {
+        "day": 4,
+        "resources": [],
+        "practice": {
+          "items": 10,
+          "difficulty": "中"
+        }
+      },
+      {
+        "day": 5,
+        "resources": [],
+        "practice": {
+          "items": 10,
+          "difficulty": "中"
+        }
+      },
+      {
+        "day": 6,
+        "resources": [],
+        "practice": {
+          "items": 10,
+          "difficulty": "中"
+        }
+      },
+      {
+        "day": 7,
+        "resources": [],
+        "practice": {
+          "items": 10,
+          "difficulty": "中"
+        }
+      },
+      {
+        "day": 8,
+        "resources": [],
+        "practice": {
+          "items": 10,
+          "difficulty": "中"
+        }
+      },
+      {
+        "day": 9,
+        "resources": [],
+        "practice": {
+          "items": 10,
+          "difficulty": "中"
+        }
+      },
+      {
+        "day": 10,
+        "resources": [],
+        "practice": {
+          "items": 10,
+          "difficulty": "中"
+        }
+      },
+      {
+        "day": 11,
+        "resources": [],
+        "practice": {
+          "items": 10,
+          "difficulty": "中"
+        }
+      },
+      {
+        "day": 12,
+        "resources": [],
+        "practice": {
+          "items": 10,
+          "difficulty": "中"
+        }
+      },
+      {
+        "day": 13,
+        "resources": [],
+        "practice": {
+          "items": 10,
+          "difficulty": "中"
+        }
+      },
+      {
+        "day": 14,
+        "resources": [],
+        "practice": {
+          "items": 10,
+          "difficulty": "中"
+        }
+      }
+    ]
+  },
+  {
+    "planId": "plan_ip6h9mte",
+    "userId": "u-progress",
+    "goal": "评估演示",
+    "schedule": [
+      {
+        "day": 1,
+        "topic": "A",
+        "resources": [],
+        "practice": {
+          "items": 10,
+          "difficulty": "中"
+        }
+      },
+      {
+        "day": 2,
+        "topic": "B",
+        "resources": [],
+        "practice": {
+          "items": 10,
+          "difficulty": "中"
+        }
+      },
+      {
+        "day": 3,
+        "topic": "A",
+        "resources": [],
+        "practice": {
+          "items": 10,
+          "difficulty": "中"
+        }
+      }
+    ]
+  },
+  {
+    "planId": "plan_8c03dfr0",
+    "userId": "u-progress",
+    "goal": "评估演示",
+    "schedule": [
+      {
+        "day": 1,
+        "topic": "A",
+        "resources": [],
+        "practice": {
+          "items": 10,
+          "difficulty": "中"
+        }
+      },
+      {
+        "day": 2,
+        "topic": "B",
+        "resources": [],
+        "practice": {
+          "items": 10,
+          "difficulty": "中"
+        }
+      },
+      {
+        "day": 3,
+        "topic": "A",
+        "resources": [],
+        "practice": {
+          "items": 10,
+          "difficulty": "中"
+        }
+      }
+    ]
+  },
+  {
+    "planId": "plan_xfs8p1y5",
+    "userId": "u-progress",
+    "goal": "评估演示",
+    "schedule": [
+      {
+        "day": 1,
+        "topic": "A",
+        "resources": [],
+        "practice": {
+          "items": 10,
+          "difficulty": "中"
+        }
+      },
+      {
+        "day": 2,
+        "topic": "B",
+        "resources": [],
+        "practice": {
+          "items": 10,
+          "difficulty": "中"
+        }
+      },
+      {
+        "day": 3,
+        "topic": "A",
+        "resources": [],
+        "practice": {
+          "items": 10,
+          "difficulty": "中"
+        }
+      }
+    ]
+  },
+  {
+    "planId": "plan_7yewj62d",
+    "userId": "u-progress",
+    "goal": "评估演示",
+    "schedule": [
+      {
+        "day": 1,
+        "topic": "A",
+        "resources": [],
+        "practice": {
+          "items": 10,
+          "difficulty": "中"
+        }
+      },
+      {
+        "day": 2,
+        "topic": "B",
+        "resources": [],
+        "practice": {
+          "items": 10,
+          "difficulty": "中"
+        }
+      },
+      {
+        "day": 3,
+        "topic": "A",
+        "resources": [],
+        "practice": {
+          "items": 10,
+          "difficulty": "中"
+        }
+      }
+    ]
+  }
+]

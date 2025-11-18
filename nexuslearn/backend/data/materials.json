@@ -1,0 +1,1300 @@
+[
+  {
+    "id": "mat_wxmt6mlq",
+    "url": "https://example.com/doc",
+    "respectsRobots": true,
+    "licenseRisk": "低",
+    "tags": {
+      "density": "进阶",
+      "subject": "会计",
+      "form": "理论"
+    },
+    "qualityScore": 0.8,
+    "ipfsHash": "ipfs://placeholder"
+  },
+  {
+    "id": "mat_zdhz0box",
+    "filename": "doc.txt",
+    "ipfsHash": "ipfs://placeholder",
+    "tags": {
+      "density": "入门",
+      "subject": "通用",
+      "form": "理论"
+    },
+    "qualityScore": 0.75
+  },
+  {
+    "id": "mat_zpno3q2i",
+    "url": "https://example.com/learning-material",
+    "respectsRobots": true,
+    "licenseRisk": "低",
+    "tags": {
+      "subject": "通用",
+      "difficulty": "??",
+      "density": "入门",
+      "form": "理论",
+      "language": "zh-CN",
+      "estimatedReadTime": 2,
+      "keywords": [
+        "学习",
+        "教育",
+        "知识"
+      ],
+      "qualityScore": 0.51
+    },
+    "qualityScore": 0.51,
+    "ipfsHash": "ipfs://bafy6f5635035f36ad500b4fc4bb7816bb72ef5594e1bcae44",
+    "aiProcessing": {
+      "steps": [
+        {
+          "step": "内容审核",
+          "result": {
+            "approved": true,
+            "violations": [],
+            "riskLevel": "low",
+            "confidence": 0.88
+          },
+          "duration": 611
+        },
+        {
+          "step": "智能分类",
+          "result": {
+            "density": "入门",
+            "subject": "通用",
+            "form": "理论",
+            "language": "zh-CN",
+            "estimatedReadTime": 2,
+            "keywords": [
+              "学习",
+              "教育",
+              "知识"
+            ],
+            "qualityScore": 0.51
+          },
+          "duration": 1312
+        },
+        {
+          "step": "知识图谱关联",
+          "result": {
+            "nodes": [
+              {
+                "id": "kg1",
+                "name": "编程基础",
+                "category": "计算机",
+                "relevance": 0.8
+              },
+              {
+                "id": "kg2",
+                "name": "算法设计",
+                "category": "数学",
+                "relevance": 0.7
+              },
+              {
+                "id": "kg3",
+                "name": "数据结构",
+                "category": "计算机",
+                "relevance": 0.9
+              }
+            ],
+            "edges": [
+              {
+                "source": "kg1",
+                "target": "kg3",
+                "relationship": "prerequisite",
+                "weight": 0.8
+              },
+              {
+                "source": "kg3",
+                "target": "kg2",
+                "relationship": "related",
+                "weight": 0.6
+              }
+            ],
+            "recommendations": [
+              "建议先学习编程基础",
+              "推荐相关的算法课程",
+              "可进阶到数据结构学习"
+            ]
+          },
+          "duration": 2225
+        },
+        {
+          "step": "去重检测",
+          "result": {
+            "isDuplicate": false,
+            "similarity": 0,
+            "duplicates": [],
+            "contentHash": "6f5635035f36ad500b4fc4bb7816bb72ef5594e1bcae44fa074c5e988fc4c0fe"
+          },
+          "duration": 2739
+        }
+      ],
+      "processingTime": 2739,
+      "knowledgeGraph": {
+        "nodes": [
+          {
+            "id": "kg1",
+            "name": "编程基础",
+            "category": "计算机",
+            "relevance": 0.8
+          },
+          {
+            "id": "kg2",
+            "name": "算法设计",
+            "category": "数学",
+            "relevance": 0.7
+          },
+          {
+            "id": "kg3",
+            "name": "数据结构",
+            "category": "计算机",
+            "relevance": 0.9
+          }
+        ],
+        "edges": [
+          {
+            "source": "kg1",
+            "target": "kg3",
+            "relationship": "prerequisite",
+            "weight": 0.8
+          },
+          {
+            "source": "kg3",
+            "target": "kg2",
+            "relationship": "related",
+            "weight": 0.6
+          }
+        ],
+        "recommendations": [
+          "建议先学习编程基础",
+          "推荐相关的算法课程",
+          "可进阶到数据结构学习"
+        ]
+      },
+      "duplicateCheck": {
+        "isDuplicate": false,
+        "similarity": 0,
+        "duplicates": [],
+        "contentHash": "6f5635035f36ad500b4fc4bb7816bb72ef5594e1bcae44fa074c5e988fc4c0fe"
+      }
+    }
+  },
+  {
+    "id": "mat_5virdhxw",
+    "url": "https://example.com",
+    "respectsRobots": true,
+    "licenseRisk": "低",
+    "tags": {
+      "subject": "通用",
+      "density": "入门",
+      "form": "理论",
+      "language": "zh-CN",
+      "estimatedReadTime": 2,
+      "keywords": [
+        "学习",
+        "教育"
+      ],
+      "qualityScore": 0.5,
+      "error": "OpenRouter API密钥未配置",
+      "provider": "fallback"
+    },
+    "qualityScore": 0.5,
+    "ipfsHash": "ipfs://bafy6f5635035f36ad500b4fc4bb7816bb72ef5594e1bcae44",
+    "aiProcessing": {
+      "steps": [
+        {
+          "step": "内容审核",
+          "result": {
+            "approved": true,
+            "violations": [],
+            "riskLevel": "low",
+            "confidence": 0.5,
+            "error": "OpenRouter API密钥未配置",
+            "provider": "fallback"
+          },
+          "duration": 1
+        },
+        {
+          "step": "智能分类",
+          "result": {
+            "density": "入门",
+            "subject": "通用",
+            "form": "理论",
+            "language": "zh-CN",
+            "estimatedReadTime": 2,
+            "keywords": [
+              "学习",
+              "教育"
+            ],
+            "qualityScore": 0.5,
+            "error": "OpenRouter API密钥未配置",
+            "provider": "fallback"
+          },
+          "duration": 2
+        },
+        {
+          "step": "知识图谱关联",
+          "result": {
+            "nodes": [],
+            "edges": [],
+            "recommendations": [],
+            "error": "OpenRouter API密钥未配置",
+            "provider": "fallback"
+          },
+          "duration": 2
+        },
+        {
+          "step": "内容分解",
+          "result": {
+            "keyPoints": [],
+            "questions": [],
+            "summary": "<!doctype html><html lang=\"en\"><head><title>Example Domain</title><meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"><style>body{background:#eee;width:60vw;margin:15vh auto;font-famil...",
+            "estimatedLearningTime": 30,
+            "error": "OpenRouter API密钥未配置"
+          },
+          "duration": 3
+        },
+        {
+          "step": "去重检测",
+          "result": {
+            "isDuplicate": false,
+            "similarity": 0,
+            "duplicateIds": [],
+            "explanation": "Detection failed",
+            "contentHash": "6f5635035f36ad500b4fc4bb7816bb72ef5594e1bcae44fa074c5e988fc4c0fe",
+            "error": "OpenRouter API密钥未配置",
+            "provider": "fallback"
+          },
+          "duration": 4
+        }
+      ],
+      "processingTime": 4,
+      "knowledgeGraph": {
+        "nodes": [],
+        "edges": [],
+        "recommendations": [],
+        "error": "OpenRouter API密钥未配置",
+        "provider": "fallback"
+      },
+      "duplicateCheck": {
+        "isDuplicate": false,
+        "similarity": 0,
+        "duplicateIds": [],
+        "explanation": "Detection failed",
+        "contentHash": "6f5635035f36ad500b4fc4bb7816bb72ef5594e1bcae44fa074c5e988fc4c0fe",
+        "error": "OpenRouter API密钥未配置",
+        "provider": "fallback"
+      }
+    }
+  },
+  {
+    "id": "mat_wx9vkobb",
+    "url": "https://example.com/ai-demo",
+    "respectsRobots": true,
+    "licenseRisk": "低",
+    "tags": {
+      "density": "入门",
+      "subject": "通用",
+      "form": "理论",
+      "language": "zh-CN",
+      "estimatedReadTime": 2,
+      "keywords": [
+        "学习",
+        "教育"
+      ],
+      "qualityScore": 0.5,
+      "error": "OpenRouter API密钥未配置",
+      "provider": "fallback"
+    },
+    "qualityScore": 0.5,
+    "ipfsHash": "ipfs://bafy6f5635035f36ad500b4fc4bb7816bb72ef5594e1bcae44",
+    "aiProcessing": {
+      "steps": [
+        {
+          "step": "内容审核",
+          "result": {
+            "approved": true,
+            "violations": [],
+            "riskLevel": "low",
+            "confidence": 0.5,
+            "error": "OpenRouter API密钥未配置",
+            "provider": "fallback"
+          },
+          "duration": 4
+        },
+        {
+          "step": "智能分类",
+          "result": {
+            "density": "入门",
+            "subject": "通用",
+            "form": "理论",
+            "language": "zh-CN",
+            "estimatedReadTime": 2,
+            "keywords": [
+              "学习",
+              "教育"
+            ],
+            "qualityScore": 0.5,
+            "error": "OpenRouter API密钥未配置",
+            "provider": "fallback"
+          },
+          "duration": 8
+        },
+        {
+          "step": "知识图谱关联",
+          "result": {
+            "nodes": [],
+            "edges": [],
+            "recommendations": [],
+            "error": "OpenRouter API密钥未配置",
+            "provider": "fallback"
+          },
+          "duration": 12
+        },
+        {
+          "step": "内容分解",
+          "result": {
+            "keyPoints": [],
+            "questions": [],
+            "summary": "<!doctype html><html lang=\"en\"><head><title>Example Domain</title><meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"><style>body{background:#eee;width:60vw;margin:15vh auto;font-famil...",
+            "estimatedLearningTime": 30,
+            "error": "OpenRouter API密钥未配置"
+          },
+          "duration": 17
+        },
+        {
+          "step": "去重检测",
+          "result": {
+            "isDuplicate": false,
+            "similarity": 0,
+            "duplicateIds": [],
+            "explanation": "Detection failed",
+            "contentHash": "6f5635035f36ad500b4fc4bb7816bb72ef5594e1bcae44fa074c5e988fc4c0fe",
+            "error": "OpenRouter API密钥未配置",
+            "provider": "fallback"
+          },
+          "duration": 20
+        }
+      ],
+      "processingTime": 20,
+      "knowledgeGraph": {
+        "nodes": [],
+        "edges": [],
+        "recommendations": [],
+        "error": "OpenRouter API密钥未配置",
+        "provider": "fallback"
+      },
+      "duplicateCheck": {
+        "isDuplicate": false,
+        "similarity": 0,
+        "duplicateIds": [],
+        "explanation": "Detection failed",
+        "contentHash": "6f5635035f36ad500b4fc4bb7816bb72ef5594e1bcae44fa074c5e988fc4c0fe",
+        "error": "OpenRouter API密钥未配置",
+        "provider": "fallback"
+      }
+    }
+  },
+  {
+    "id": "mat_omi8rbvn",
+    "url": "https://example.com",
+    "respectsRobots": true,
+    "licenseRisk": "低",
+    "tags": {
+      "subject": "通用",
+      "density": "入门",
+      "form": "理论",
+      "language": "zh-CN",
+      "estimatedReadTime": 2,
+      "keywords": [
+        "学习",
+        "教育"
+      ],
+      "qualityScore": 0.5,
+      "error": "OpenRouter API密钥未配置",
+      "provider": "fallback"
+    },
+    "qualityScore": 0.5,
+    "ipfsHash": "ipfs://bafy6f5635035f36ad500b4fc4bb7816bb72ef5594e1bcae44",
+    "aiProcessing": {
+      "steps": [
+        {
+          "step": "内容审核",
+          "result": {
+            "approved": true,
+            "violations": [],
+            "riskLevel": "low",
+            "confidence": 0.5,
+            "error": "OpenRouter API密钥未配置",
+            "provider": "fallback"
+          },
+          "duration": 4
+        },
+        {
+          "step": "智能分类",
+          "result": {
+            "density": "入门",
+            "subject": "通用",
+            "form": "理论",
+            "language": "zh-CN",
+            "estimatedReadTime": 2,
+            "keywords": [
+              "学习",
+              "教育"
+            ],
+            "qualityScore": 0.5,
+            "error": "OpenRouter API密钥未配置",
+            "provider": "fallback"
+          },
+          "duration": 7
+        },
+        {
+          "step": "知识图谱关联",
+          "result": {
+            "nodes": [],
+            "edges": [],
+            "recommendations": [],
+            "error": "OpenRouter API密钥未配置",
+            "provider": "fallback"
+          },
+          "duration": 11
+        },
+        {
+          "step": "内容分解",
+          "result": {
+            "keyPoints": [],
+            "questions": [],
+            "summary": "<!doctype html><html lang=\"en\"><head><title>Example Domain</title><meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"><style>body{background:#eee;width:60vw;margin:15vh auto;font-famil...",
+            "estimatedLearningTime": 30,
+            "error": "OpenRouter API密钥未配置"
+          },
+          "duration": 14
+        },
+        {
+          "step": "去重检测",
+          "result": {
+            "isDuplicate": false,
+            "similarity": 0,
+            "duplicateIds": [],
+            "explanation": "Detection failed",
+            "contentHash": "6f5635035f36ad500b4fc4bb7816bb72ef5594e1bcae44fa074c5e988fc4c0fe",
+            "error": "OpenRouter API密钥未配置",
+            "provider": "fallback"
+          },
+          "duration": 18
+        }
+      ],
+      "processingTime": 18,
+      "knowledgeGraph": {
+        "nodes": [],
+        "edges": [],
+        "recommendations": [],
+        "error": "OpenRouter API密钥未配置",
+        "provider": "fallback"
+      },
+      "duplicateCheck": {
+        "isDuplicate": false,
+        "similarity": 0,
+        "duplicateIds": [],
+        "explanation": "Detection failed",
+        "contentHash": "6f5635035f36ad500b4fc4bb7816bb72ef5594e1bcae44fa074c5e988fc4c0fe",
+        "error": "OpenRouter API密钥未配置",
+        "provider": "fallback"
+      }
+    }
+  },
+  {
+    "id": "mat_3a9nkjg4",
+    "url": "https://example.com/ai-demo",
+    "respectsRobots": true,
+    "licenseRisk": "低",
+    "tags": {
+      "density": "入门",
+      "subject": "通用",
+      "form": "理论",
+      "language": "zh-CN",
+      "estimatedReadTime": 2,
+      "keywords": [
+        "学习",
+        "教育"
+      ],
+      "qualityScore": 0.5,
+      "error": "OpenRouter API密钥未配置",
+      "provider": "fallback"
+    },
+    "qualityScore": 0.5,
+    "ipfsHash": "ipfs://bafy6f5635035f36ad500b4fc4bb7816bb72ef5594e1bcae44",
+    "aiProcessing": {
+      "steps": [
+        {
+          "step": "内容审核",
+          "result": {
+            "approved": true,
+            "violations": [],
+            "riskLevel": "low",
+            "confidence": 0.5,
+            "error": "OpenRouter API密钥未配置",
+            "provider": "fallback"
+          },
+          "duration": 5
+        },
+        {
+          "step": "智能分类",
+          "result": {
+            "density": "入门",
+            "subject": "通用",
+            "form": "理论",
+            "language": "zh-CN",
+            "estimatedReadTime": 2,
+            "keywords": [
+              "学习",
+              "教育"
+            ],
+            "qualityScore": 0.5,
+            "error": "OpenRouter API密钥未配置",
+            "provider": "fallback"
+          },
+          "duration": 10
+        },
+        {
+          "step": "知识图谱关联",
+          "result": {
+            "nodes": [],
+            "edges": [],
+            "recommendations": [],
+            "error": "OpenRouter API密钥未配置",
+            "provider": "fallback"
+          },
+          "duration": 14
+        },
+        {
+          "step": "内容分解",
+          "result": {
+            "keyPoints": [],
+            "questions": [],
+            "summary": "<!doctype html><html lang=\"en\"><head><title>Example Domain</title><meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"><style>body{background:#eee;width:60vw;margin:15vh auto;font-famil...",
+            "estimatedLearningTime": 30,
+            "error": "OpenRouter API密钥未配置"
+          },
+          "duration": 18
+        },
+        {
+          "step": "去重检测",
+          "result": {
+            "isDuplicate": false,
+            "similarity": 0,
+            "duplicateIds": [],
+            "explanation": "Detection failed",
+            "contentHash": "6f5635035f36ad500b4fc4bb7816bb72ef5594e1bcae44fa074c5e988fc4c0fe",
+            "error": "OpenRouter API密钥未配置",
+            "provider": "fallback"
+          },
+          "duration": 22
+        }
+      ],
+      "processingTime": 22,
+      "knowledgeGraph": {
+        "nodes": [],
+        "edges": [],
+        "recommendations": [],
+        "error": "OpenRouter API密钥未配置",
+        "provider": "fallback"
+      },
+      "duplicateCheck": {
+        "isDuplicate": false,
+        "similarity": 0,
+        "duplicateIds": [],
+        "explanation": "Detection failed",
+        "contentHash": "6f5635035f36ad500b4fc4bb7816bb72ef5594e1bcae44fa074c5e988fc4c0fe",
+        "error": "OpenRouter API密钥未配置",
+        "provider": "fallback"
+      }
+    }
+  },
+  {
+    "id": "mat_bgtsr4ip",
+    "url": "https://example.com/demo",
+    "respectsRobots": true,
+    "licenseRisk": "低",
+    "tags": {
+      "density": "入门",
+      "subject": "通用",
+      "form": "理论",
+      "language": "zh-CN",
+      "estimatedReadTime": 2,
+      "keywords": [
+        "学习",
+        "教育"
+      ],
+      "qualityScore": 0.5,
+      "error": "OpenRouter API密钥未配置",
+      "provider": "fallback"
+    },
+    "qualityScore": 0.5,
+    "ipfsHash": "ipfs://bafy6f5635035f36ad500b4fc4bb7816bb72ef5594e1bcae44",
+    "aiProcessing": {
+      "steps": [
+        {
+          "step": "内容审核",
+          "result": {
+            "approved": true,
+            "violations": [],
+            "riskLevel": "low",
+            "confidence": 0.5,
+            "error": "OpenRouter API密钥未配置",
+            "provider": "fallback"
+          },
+          "duration": 5
+        },
+        {
+          "step": "智能分类",
+          "result": {
+            "density": "入门",
+            "subject": "通用",
+            "form": "理论",
+            "language": "zh-CN",
+            "estimatedReadTime": 2,
+            "keywords": [
+              "学习",
+              "教育"
+            ],
+            "qualityScore": 0.5,
+            "error": "OpenRouter API密钥未配置",
+            "provider": "fallback"
+          },
+          "duration": 9
+        },
+        {
+          "step": "知识图谱关联",
+          "result": {
+            "nodes": [],
+            "edges": [],
+            "recommendations": [],
+            "error": "OpenRouter API密钥未配置",
+            "provider": "fallback"
+          },
+          "duration": 13
+        },
+        {
+          "step": "内容分解",
+          "result": {
+            "keyPoints": [],
+            "questions": [],
+            "summary": "<!doctype html><html lang=\"en\"><head><title>Example Domain</title><meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"><style>body{background:#eee;width:60vw;margin:15vh auto;font-famil...",
+            "estimatedLearningTime": 30,
+            "error": "OpenRouter API密钥未配置"
+          },
+          "duration": 16
+        },
+        {
+          "step": "去重检测",
+          "result": {
+            "isDuplicate": false,
+            "similarity": 0,
+            "duplicateIds": [],
+            "explanation": "Detection failed",
+            "contentHash": "6f5635035f36ad500b4fc4bb7816bb72ef5594e1bcae44fa074c5e988fc4c0fe",
+            "error": "OpenRouter API密钥未配置",
+            "provider": "fallback"
+          },
+          "duration": 21
+        }
+      ],
+      "processingTime": 21,
+      "knowledgeGraph": {
+        "nodes": [],
+        "edges": [],
+        "recommendations": [],
+        "error": "OpenRouter API密钥未配置",
+        "provider": "fallback"
+      },
+      "duplicateCheck": {
+        "isDuplicate": false,
+        "similarity": 0,
+        "duplicateIds": [],
+        "explanation": "Detection failed",
+        "contentHash": "6f5635035f36ad500b4fc4bb7816bb72ef5594e1bcae44fa074c5e988fc4c0fe",
+        "error": "OpenRouter API密钥未配置",
+        "provider": "fallback"
+      }
+    }
+  },
+  {
+    "id": "mat_4576ehfe",
+    "url": "https://example.com/demo",
+    "respectsRobots": true,
+    "licenseRisk": "低",
+    "tags": {
+      "density": "入门",
+      "subject": "通用",
+      "form": "理论",
+      "language": "zh-CN",
+      "estimatedReadTime": 2,
+      "keywords": [
+        "学习",
+        "教育"
+      ],
+      "qualityScore": 0.5,
+      "error": "OpenRouter API密钥未配置",
+      "provider": "fallback"
+    },
+    "qualityScore": 0.5,
+    "ipfsHash": "ipfs://bafy6f5635035f36ad500b4fc4bb7816bb72ef5594e1bcae44",
+    "aiProcessing": {
+      "steps": [
+        {
+          "step": "内容审核",
+          "result": {
+            "approved": true,
+            "violations": [],
+            "riskLevel": "low",
+            "confidence": 0.5,
+            "error": "OpenRouter API密钥未配置",
+            "provider": "fallback"
+          },
+          "duration": 5
+        },
+        {
+          "step": "智能分类",
+          "result": {
+            "density": "入门",
+            "subject": "通用",
+            "form": "理论",
+            "language": "zh-CN",
+            "estimatedReadTime": 2,
+            "keywords": [
+              "学习",
+              "教育"
+            ],
+            "qualityScore": 0.5,
+            "error": "OpenRouter API密钥未配置",
+            "provider": "fallback"
+          },
+          "duration": 10
+        },
+        {
+          "step": "知识图谱关联",
+          "result": {
+            "nodes": [],
+            "edges": [],
+            "recommendations": [],
+            "error": "OpenRouter API密钥未配置",
+            "provider": "fallback"
+          },
+          "duration": 13
+        },
+        {
+          "step": "内容分解",
+          "result": {
+            "keyPoints": [],
+            "questions": [],
+            "summary": "<!doctype html><html lang=\"en\"><head><title>Example Domain</title><meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"><style>body{background:#eee;width:60vw;margin:15vh auto;font-famil...",
+            "estimatedLearningTime": 30,
+            "error": "OpenRouter API密钥未配置"
+          },
+          "duration": 17
+        },
+        {
+          "step": "去重检测",
+          "result": {
+            "isDuplicate": false,
+            "similarity": 0,
+            "duplicateIds": [],
+            "explanation": "Detection failed",
+            "contentHash": "6f5635035f36ad500b4fc4bb7816bb72ef5594e1bcae44fa074c5e988fc4c0fe",
+            "error": "OpenRouter API密钥未配置",
+            "provider": "fallback"
+          },
+          "duration": 20
+        }
+      ],
+      "processingTime": 20,
+      "knowledgeGraph": {
+        "nodes": [],
+        "edges": [],
+        "recommendations": [],
+        "error": "OpenRouter API密钥未配置",
+        "provider": "fallback"
+      },
+      "duplicateCheck": {
+        "isDuplicate": false,
+        "similarity": 0,
+        "duplicateIds": [],
+        "explanation": "Detection failed",
+        "contentHash": "6f5635035f36ad500b4fc4bb7816bb72ef5594e1bcae44fa074c5e988fc4c0fe",
+        "error": "OpenRouter API密钥未配置",
+        "provider": "fallback"
+      }
+    }
+  },
+  {
+    "id": "mat_qutsekcd",
+    "url": "https://example.com/ai-demo",
+    "respectsRobots": true,
+    "licenseRisk": "低",
+    "tags": {
+      "density": "入门",
+      "subject": "通用",
+      "form": "理论",
+      "language": "zh-CN",
+      "estimatedReadTime": 2,
+      "keywords": [
+        "学习",
+        "教育"
+      ],
+      "qualityScore": 0.5,
+      "error": "OpenRouter API密钥未配置",
+      "provider": "fallback"
+    },
+    "qualityScore": 0.5,
+    "ipfsHash": "ipfs://bafy6f5635035f36ad500b4fc4bb7816bb72ef5594e1bcae44",
+    "aiProcessing": {
+      "steps": [
+        {
+          "step": "内容审核",
+          "result": {
+            "approved": true,
+            "violations": [],
+            "riskLevel": "low",
+            "confidence": 0.5,
+            "error": "OpenRouter API密钥未配置",
+            "provider": "fallback"
+          },
+          "duration": 6
+        },
+        {
+          "step": "智能分类",
+          "result": {
+            "density": "入门",
+            "subject": "通用",
+            "form": "理论",
+            "language": "zh-CN",
+            "estimatedReadTime": 2,
+            "keywords": [
+              "学习",
+              "教育"
+            ],
+            "qualityScore": 0.5,
+            "error": "OpenRouter API密钥未配置",
+            "provider": "fallback"
+          },
+          "duration": 9
+        },
+        {
+          "step": "知识图谱关联",
+          "result": {
+            "nodes": [],
+            "edges": [],
+            "recommendations": [],
+            "error": "OpenRouter API密钥未配置",
+            "provider": "fallback"
+          },
+          "duration": 12
+        },
+        {
+          "step": "内容分解",
+          "result": {
+            "keyPoints": [],
+            "questions": [],
+            "summary": "<!doctype html><html lang=\"en\"><head><title>Example Domain</title><meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"><style>body{background:#eee;width:60vw;margin:15vh auto;font-famil...",
+            "estimatedLearningTime": 30,
+            "error": "OpenRouter API密钥未配置"
+          },
+          "duration": 15
+        },
+        {
+          "step": "去重检测",
+          "result": {
+            "isDuplicate": false,
+            "similarity": 0,
+            "duplicateIds": [],
+            "explanation": "Detection failed",
+            "contentHash": "6f5635035f36ad500b4fc4bb7816bb72ef5594e1bcae44fa074c5e988fc4c0fe",
+            "error": "OpenRouter API密钥未配置",
+            "provider": "fallback"
+          },
+          "duration": 20
+        }
+      ],
+      "processingTime": 20,
+      "knowledgeGraph": {
+        "nodes": [],
+        "edges": [],
+        "recommendations": [],
+        "error": "OpenRouter API密钥未配置",
+        "provider": "fallback"
+      },
+      "duplicateCheck": {
+        "isDuplicate": false,
+        "similarity": 0,
+        "duplicateIds": [],
+        "explanation": "Detection failed",
+        "contentHash": "6f5635035f36ad500b4fc4bb7816bb72ef5594e1bcae44fa074c5e988fc4c0fe",
+        "error": "OpenRouter API密钥未配置",
+        "provider": "fallback"
+      }
+    }
+  },
+  {
+    "id": "mat_ezdwm4nx",
+    "url": "https://example.com/demo",
+    "respectsRobots": true,
+    "licenseRisk": "低",
+    "tags": {
+      "density": "入门",
+      "subject": "通用",
+      "form": "理论",
+      "language": "zh-CN",
+      "estimatedReadTime": 2,
+      "keywords": [
+        "学习",
+        "教育"
+      ],
+      "qualityScore": 0.5,
+      "error": "OpenRouter API密钥未配置",
+      "provider": "fallback"
+    },
+    "qualityScore": 0.5,
+    "ipfsHash": "ipfs://bafy6f5635035f36ad500b4fc4bb7816bb72ef5594e1bcae44",
+    "aiProcessing": {
+      "steps": [
+        {
+          "step": "内容审核",
+          "result": {
+            "approved": true,
+            "violations": [],
+            "riskLevel": "low",
+            "confidence": 0.5,
+            "error": "OpenRouter API密钥未配置",
+            "provider": "fallback"
+          },
+          "duration": 5
+        },
+        {
+          "step": "智能分类",
+          "result": {
+            "density": "入门",
+            "subject": "通用",
+            "form": "理论",
+            "language": "zh-CN",
+            "estimatedReadTime": 2,
+            "keywords": [
+              "学习",
+              "教育"
+            ],
+            "qualityScore": 0.5,
+            "error": "OpenRouter API密钥未配置",
+            "provider": "fallback"
+          },
+          "duration": 10
+        },
+        {
+          "step": "知识图谱关联",
+          "result": {
+            "nodes": [],
+            "edges": [],
+            "recommendations": [],
+            "error": "OpenRouter API密钥未配置",
+            "provider": "fallback"
+          },
+          "duration": 13
+        },
+        {
+          "step": "内容分解",
+          "result": {
+            "keyPoints": [],
+            "questions": [],
+            "summary": "<!doctype html><html lang=\"en\"><head><title>Example Domain</title><meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"><style>body{background:#eee;width:60vw;margin:15vh auto;font-famil...",
+            "estimatedLearningTime": 30,
+            "error": "OpenRouter API密钥未配置"
+          },
+          "duration": 17
+        },
+        {
+          "step": "去重检测",
+          "result": {
+            "isDuplicate": false,
+            "similarity": 0,
+            "duplicateIds": [],
+            "explanation": "Detection failed",
+            "contentHash": "6f5635035f36ad500b4fc4bb7816bb72ef5594e1bcae44fa074c5e988fc4c0fe",
+            "error": "OpenRouter API密钥未配置",
+            "provider": "fallback"
+          },
+          "duration": 21
+        }
+      ],
+      "processingTime": 21,
+      "knowledgeGraph": {
+        "nodes": [],
+        "edges": [],
+        "recommendations": [],
+        "error": "OpenRouter API密钥未配置",
+        "provider": "fallback"
+      },
+      "duplicateCheck": {
+        "isDuplicate": false,
+        "similarity": 0,
+        "duplicateIds": [],
+        "explanation": "Detection failed",
+        "contentHash": "6f5635035f36ad500b4fc4bb7816bb72ef5594e1bcae44fa074c5e988fc4c0fe",
+        "error": "OpenRouter API密钥未配置",
+        "provider": "fallback"
+      }
+    }
+  },
+  {
+    "id": "mat_eoduszwl",
+    "url": "https://example.com/demo",
+    "respectsRobots": true,
+    "licenseRisk": "低",
+    "tags": {
+      "density": "入门",
+      "subject": "通用",
+      "form": "理论",
+      "language": "zh-CN",
+      "estimatedReadTime": 2,
+      "keywords": [
+        "学习",
+        "教育"
+      ],
+      "qualityScore": 0.5,
+      "error": "OpenRouter API密钥未配置",
+      "provider": "fallback"
+    },
+    "qualityScore": 0.5,
+    "ipfsHash": "ipfs://bafy6f5635035f36ad500b4fc4bb7816bb72ef5594e1bcae44",
+    "aiProcessing": {
+      "steps": [
+        {
+          "step": "内容审核",
+          "result": {
+            "approved": true,
+            "violations": [],
+            "riskLevel": "low",
+            "confidence": 0.5,
+            "error": "OpenRouter API密钥未配置",
+            "provider": "fallback"
+          },
+          "duration": 4
+        },
+        {
+          "step": "智能分类",
+          "result": {
+            "density": "入门",
+            "subject": "通用",
+            "form": "理论",
+            "language": "zh-CN",
+            "estimatedReadTime": 2,
+            "keywords": [
+              "学习",
+              "教育"
+            ],
+            "qualityScore": 0.5,
+            "error": "OpenRouter API密钥未配置",
+            "provider": "fallback"
+          },
+          "duration": 8
+        },
+        {
+          "step": "知识图谱关联",
+          "result": {
+            "nodes": [],
+            "edges": [],
+            "recommendations": [],
+            "error": "OpenRouter API密钥未配置",
+            "provider": "fallback"
+          },
+          "duration": 12
+        },
+        {
+          "step": "内容分解",
+          "result": {
+            "keyPoints": [],
+            "questions": [],
+            "summary": "<!doctype html><html lang=\"en\"><head><title>Example Domain</title><meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"><style>body{background:#eee;width:60vw;margin:15vh auto;font-famil...",
+            "estimatedLearningTime": 30,
+            "error": "OpenRouter API密钥未配置"
+          },
+          "duration": 15
+        },
+        {
+          "step": "去重检测",
+          "result": {
+            "isDuplicate": false,
+            "similarity": 0,
+            "duplicateIds": [],
+            "explanation": "Detection failed",
+            "contentHash": "6f5635035f36ad500b4fc4bb7816bb72ef5594e1bcae44fa074c5e988fc4c0fe",
+            "error": "OpenRouter API密钥未配置",
+            "provider": "fallback"
+          },
+          "duration": 19
+        }
+      ],
+      "processingTime": 19,
+      "knowledgeGraph": {
+        "nodes": [],
+        "edges": [],
+        "recommendations": [],
+        "error": "OpenRouter API密钥未配置",
+        "provider": "fallback"
+      },
+      "duplicateCheck": {
+        "isDuplicate": false,
+        "similarity": 0,
+        "duplicateIds": [],
+        "explanation": "Detection failed",
+        "contentHash": "6f5635035f36ad500b4fc4bb7816bb72ef5594e1bcae44fa074c5e988fc4c0fe",
+        "error": "OpenRouter API密钥未配置",
+        "provider": "fallback"
+      }
+    }
+  },
+  {
+    "id": "mat_vue3_guide",
+    "title": "Vue3 完整指南",
+    "description": "从基础到高级的Vue3学习指南",
+    "url": "https://example.com/vue3-guide",
+    "tags": [
+      "Vue3",
+      "前端开发",
+      "JavaScript"
+    ],
+    "type": "article",
+    "difficulty": "intermediate",
+    "language": "zh-CN",
+    "author": "Vue团队",
+    "createdAt": 1760817270189,
+    "views": 12500,
+    "likes": 890,
+    "comments": 234
+  },
+  {
+    "id": "mat_solidity_security",
+    "title": "Solidity智能合约安全",
+    "description": "深入分析Solidity智能合约安全漏洞",
+    "url": "https://example.com/solidity-security",
+    "tags": [
+      "Solidity",
+      "智能合约",
+      "安全"
+    ],
+    "type": "article",
+    "difficulty": "advanced",
+    "language": "zh-CN",
+    "author": "区块链专家",
+    "createdAt": 1762113270189,
+    "views": 8900,
+    "likes": 567,
+    "comments": 123
+  },
+  {
+    "id": "mat_0x085wll",
+    "url": "https://example.com",
+    "respectsRobots": true,
+    "licenseRisk": "低",
+    "tags": {
+      "subject": "通用",
+      "density": "入门",
+      "form": "理论",
+      "language": "zh-CN",
+      "estimatedReadTime": 2,
+      "keywords": [
+        "学习",
+        "教育"
+      ],
+      "qualityScore": 0.5,
+      "error": "OpenRouter API密钥未配置",
+      "provider": "fallback"
+    },
+    "qualityScore": 0.5,
+    "ipfsHash": "ipfs://bafy6f5635035f36ad500b4fc4bb7816bb72ef5594e1bcae44",
+    "aiProcessing": {
+      "steps": [
+        {
+          "step": "内容审核",
+          "result": {
+            "approved": true,
+            "violations": [],
+            "riskLevel": "low",
+            "confidence": 0.5,
+            "error": "OpenRouter API密钥未配置",
+            "provider": "fallback"
+          },
+          "duration": 4
+        },
+        {
+          "step": "智能分类",
+          "result": {
+            "density": "入门",
+            "subject": "通用",
+            "form": "理论",
+            "language": "zh-CN",
+            "estimatedReadTime": 2,
+            "keywords": [
+              "学习",
+              "教育"
+            ],
+            "qualityScore": 0.5,
+            "error": "OpenRouter API密钥未配置",
+            "provider": "fallback"
+          },
+          "duration": 7
+        },
+        {
+          "step": "知识图谱关联",
+          "result": {
+            "nodes": [],
+            "edges": [],
+            "recommendations": [],
+            "error": "OpenRouter API密钥未配置",
+            "provider": "fallback"
+          },
+          "duration": 11
+        },
+        {
+          "step": "内容分解",
+          "result": {
+            "keyPoints": [],
+            "questions": [],
+            "summary": "<!doctype html><html lang=\"en\"><head><title>Example Domain</title><meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"><style>body{background:#eee;width:60vw;margin:15vh auto;font-famil...",
+            "estimatedLearningTime": 30,
+            "error": "OpenRouter API密钥未配置"
+          },
+          "duration": 15
+        },
+        {
+          "step": "去重检测",
+          "result": {
+            "isDuplicate": false,
+            "similarity": 0,
+            "duplicateIds": [],
+            "explanation": "Detection failed",
+            "contentHash": "6f5635035f36ad500b4fc4bb7816bb72ef5594e1bcae44fa074c5e988fc4c0fe",
+            "error": "OpenRouter API密钥未配置",
+            "provider": "fallback"
+          },
+          "duration": 19
+        }
+      ],
+      "processingTime": 19,
+      "knowledgeGraph": {
+        "nodes": [],
+        "edges": [],
+        "recommendations": [],
+        "error": "OpenRouter API密钥未配置",
+        "provider": "fallback"
+      },
+      "duplicateCheck": {
+        "isDuplicate": false,
+        "similarity": 0,
+        "duplicateIds": [],
+        "explanation": "Detection failed",
+        "contentHash": "6f5635035f36ad500b4fc4bb7816bb72ef5594e1bcae44fa074c5e988fc4c0fe",
+        "error": "OpenRouter API密钥未配置",
+        "provider": "fallback"
+      }
+    }
+  }
+]

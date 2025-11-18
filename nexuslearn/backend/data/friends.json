@@ -1,0 +1,16 @@
+[
+  {
+    "id": "friend_001",
+    "userId": "test_user_001",
+    "friendId": "friend_user_001",
+    "status": "accepted",
+    "createdAt": 1763408970189
+  },
+  {
+    "id": "friend_002", 
+    "userId": "test_user_001",
+    "friendId": "friend_user_002",
+    "status": "accepted",
+    "createdAt": 1763405670189
+  }
+]

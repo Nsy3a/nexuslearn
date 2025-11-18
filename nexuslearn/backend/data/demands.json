@@ -1,0 +1,100 @@
+[
+  {
+    "id": "dmd_ai5g5q1k",
+    "title": "生成前端登录页",
+    "description": "Vue3 方案",
+    "techStack": [
+      "Vue3"
+    ],
+    "budgetStablecoin": 100,
+    "tasks": [],
+    "status": "ACCEPTED"
+  },
+  {
+    "id": "dmd_ddx3l4yt",
+    "title": "生成前端登录页",
+    "description": "Vue3 方案",
+    "techStack": [
+      "Vue3",
+      "TypeScript"
+    ],
+    "budgetStablecoin": 100,
+    "tasks": [],
+    "status": "OPEN"
+  },
+  {
+    "id": "dmd_8p1scutp",
+    "title": "??AI????",
+    "description": "???????????????????????",
+    "techStack": [
+      "Vue3",
+      "Node.js",
+      "Solidity"
+    ],
+    "budgetStablecoin": 1000,
+    "tasks": [],
+    "status": "OPEN"
+  },
+  {
+    "id": "dmd_luro0lc6",
+    "title": "评估需求",
+    "description": "演示",
+    "techStack": [
+      "Vue3"
+    ],
+    "budgetStablecoin": 10,
+    "tasks": [],
+    "status": "ACCEPTED"
+  },
+  {
+    "id": "dmd_t08syymc",
+    "title": "评估需求",
+    "description": "演示",
+    "techStack": [
+      "Vue3"
+    ],
+    "budgetStablecoin": 10,
+    "tasks": [],
+    "status": "ACCEPTED"
+  },
+  {
+    "id": "dmd_eqkvj9ca",
+    "title": "生成前端登录页",
+    "description": "Vue3 方案",
+    "techStack": [
+      "Vue3",
+      "TypeScript"
+    ],
+    "budgetStablecoin": 100,
+    "tasks": [
+      {
+        "id": "task_k7vjlaxf",
+        "title": "实现登录表单校验",
+        "skills": [
+          "Vue3",
+          "表单验证"
+        ],
+        "status": "OPEN",
+        "assignee": "",
+        "dueDate": null,
+        "dependsOn": [],
+        "milestone": "",
+        "pos": 0,
+        "createdAt": 1763413638959
+      }
+    ],
+    "status": "OPEN"
+  },
+  {
+    "id": "dmd_mqv7jfsa",
+    "title": "生成前端登录页",
+    "description": "Vue3 方案",
+    "techStack": [
+      "Vue3",
+      "TypeScript"
+    ],
+    "budgetStablecoin": 100,
+    "tasks": [],
+    "status": "OPEN"
+  }
+]

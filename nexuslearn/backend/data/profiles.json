@@ -1,0 +1,155 @@
+[
+  {
+    "userId": "u1",
+    "preferences": {
+      "format": "理论"
+    },
+    "avoidRules": [
+      "案例"
+    ],
+    "goal": "小学算数",
+    "skills": []
+  },
+  {
+    "userId": "u-progress",
+    "preferences": {},
+    "avoidRules": [],
+    "goal": "评估演示",
+    "skills": [
+      "A",
+      "B"
+    ],
+    "goalAnalysis": {
+      "complexity": "simple",
+      "achievability": 0.5,
+      "timeEstimation": 11,
+      "skillGaps": [],
+      "learningPath": [
+        {
+          "phase": "进阶阶段",
+          "duration": 7,
+          "focus": [
+            "核心概念",
+            "实践应用"
+          ],
+          "description": "深入学习核心内容"
+        },
+        {
+          "phase": "实践阶段",
+          "duration": 7,
+          "focus": [
+            "项目实战",
+            "问题解决"
+          ],
+          "description": "通过实践巩固知识"
+        }
+      ],
+      "successFactors": [
+        "持续学习",
+        "及时复习",
+        "实践应用"
+      ],
+      "riskFactors": [
+        "目标描述不够具体"
+      ],
+      "recommendations": [
+        "先学习相关基础技能",
+        "为目标设定明确的时间限制",
+        "制定具体的学习计划",
+        "定期评估进度和调整策略"
+      ]
+    },
+    "lastUpdated": 1763404607100
+  },
+  {
+    "userId": "test_user_001",
+    "name": "测试用户001",
+    "preferences": {
+      "format": "图文结合",
+      "difficulty": "中级",
+      "contentFormat": "视频+文档",
+      "interactionStyle": "主动引导",
+      "recentSearches": [
+        "Vue3",
+        "区块链",
+        "机器学习"
+      ],
+      "completedTopics": [
+        "JavaScript基础",
+        "HTML/CSS"
+      ],
+      "preferredSubjects": [
+        "前端开发",
+        "Web3.0"
+      ]
+    },
+    "avoidRules": [
+      "不推荐超过3年的技术文章",
+      "排除纯理论无实践的内容"
+    ],
+    "goals": [
+      "技能提升",
+      "项目开发"
+    ],
+    "skills": [
+      "JavaScript",
+      "Vue",
+      "Node.js"
+    ],
+    "weaknesses": [
+      {
+        "area": "JavaScript 高级特性",
+        "improvement": 65
+      },
+      {
+        "area": "区块链技术",
+        "improvement": 45
+      }
+    ]
+  },
+  {
+    "userId": "test_user_002",
+    "name": "测试用户002",
+    "preferences": {
+      "format": "视频优先",
+      "difficulty": "高级",
+      "contentFormat": "实战项目",
+      "interactionStyle": "自主探索",
+      "recentSearches": [
+        "Solidity",
+        "智能合约",
+        "DeFi"
+      ],
+      "completedTopics": [
+        "区块链基础",
+        "Solidity语法"
+      ],
+      "preferredSubjects": [
+        "区块链",
+        "智能合约"
+      ]
+    },
+    "avoidRules": [
+      "避免过于简单的入门教程"
+    ],
+    "goals": [
+      "学术研究",
+      "项目开发"
+    ],
+    "skills": [
+      "Solidity",
+      "Python",
+      "Web3.js"
+    ],
+    "weaknesses": [
+      {
+        "area": "智能合约安全",
+        "improvement": 70
+      },
+      {
+        "area": "DeFi协议理解",
+        "improvement": 55
+      }
+    ]
+  }
+]

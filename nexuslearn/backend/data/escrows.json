@@ -1,0 +1,69 @@
+[
+  {
+    "escrowId": "esc_1y7zkwpg",
+    "demandId": "dmd_ai5g5q1k",
+    "token": "USDC",
+    "amount": 100,
+    "status": "ACCEPTED",
+    "distribution": [
+      {
+        "address": "0xabc",
+        "share": 1
+      }
+    ]
+  },
+  {
+    "escrowId": "esc_wpcw6wrg",
+    "demandId": "dmd_ddx3l4yt",
+    "token": "USDC",
+    "amount": 100,
+    "status": "CREATED"
+  },
+  {
+    "escrowId": "esc_m8w2h4ri",
+    "demandId": "dmd_8p1scutp",
+    "token": "USDC",
+    "amount": 1000,
+    "status": "CREATED"
+  },
+  {
+    "escrowId": "esc_3ox6ccte",
+    "demandId": "dmd_luro0lc6",
+    "token": "USDC",
+    "amount": 10,
+    "status": "ACCEPTED",
+    "distribution": [
+      {
+        "address": "0xabc",
+        "share": 1
+      }
+    ]
+  },
+  {
+    "escrowId": "esc_a15s50dn",
+    "demandId": "dmd_t08syymc",
+    "token": "USDC",
+    "amount": 10,
+    "status": "ACCEPTED",
+    "distribution": [
+      {
+        "address": "0xabc",
+        "share": 1
+      }
+    ]
+  },
+  {
+    "escrowId": "esc_sjrrpuim",
+    "demandId": "dmd_eqkvj9ca",
+    "token": "USDC",
+    "amount": 100,
+    "status": "CREATED"
+  },
+  {
+    "escrowId": "esc_mwnzjqiq",
+    "demandId": "dmd_mqv7jfsa",
+    "token": "USDC",
+    "amount": 100,
+    "status": "CREATED"
+  }
+]

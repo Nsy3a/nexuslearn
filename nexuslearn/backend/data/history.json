@@ -1,0 +1,181 @@
+[
+  {
+    "id": "hist_casepki7",
+    "userId": "u1",
+    "action": "create_goal",
+    "targetType": "goal",
+    "targetId": "test_goal_1",
+    "metadata": {
+      "goal": "??Vue3",
+      "skills": [
+        "????",
+        "????"
+      ]
+    },
+    "timestamp": 1763342054877,
+    "aiProcessed": true
+  },
+  {
+    "id": "hist_5elf6505",
+    "userId": "u1",
+    "action": "create_goal",
+    "targetType": "goal",
+    "targetId": "goal_1763345368166",
+    "metadata": {
+      "goal": "小学算数",
+      "skills": []
+    },
+    "timestamp": 1763345368168,
+    "aiProcessed": true
+  },
+  {
+    "id": "hist_0fe9ecuw",
+    "userId": "u1",
+    "action": "assess_learning",
+    "targetType": "assessment",
+    "targetId": "assessment_1763345390692",
+    "metadata": {
+      "correctRate": 0.75,
+      "masteryScore": 75,
+      "speed": 1,
+      "topic": "general",
+      "assessmentType": "adaptive"
+    },
+    "timestamp": 1763345390692,
+    "aiProcessed": false
+  },
+  {
+    "id": "hist_kw3vm1at",
+    "userId": "u1",
+    "action": "create_goal",
+    "targetType": "goal",
+    "targetId": "goal_1763345401250",
+    "metadata": {
+      "goal": "小学算数",
+      "skills": []
+    },
+    "timestamp": 1763345401252,
+    "aiProcessed": true
+  },
+  {
+    "id": "hist_bxl313vx",
+    "userId": "u1",
+    "action": "assess_learning",
+    "targetType": "assessment",
+    "targetId": "assessment_1763346507877",
+    "metadata": {
+      "correctRate": 0.75,
+      "masteryScore": 75,
+      "speed": 1,
+      "topic": "general",
+      "assessmentType": "adaptive"
+    },
+    "timestamp": 1763346507877,
+    "aiProcessed": false
+  },
+  {
+    "id": "hist_ghwhi734",
+    "userId": "current_user",
+    "action": "create_proposal",
+    "targetType": "governance_proposal",
+    "targetId": "proposal_1763404604838",
+    "metadata": {
+      "description": "示例提案：提高资料质量评分权重"
+    },
+    "timestamp": 1763404604840,
+    "aiProcessed": false
+  },
+  {
+    "id": "hist_test_001",
+    "userId": "test_user_001",
+    "action": "search",
+    "targetType": "material",
+    "targetId": "mat_vue3_guide",
+    "metadata": {
+      "query": "Vue3 组合式API",
+      "resultsCount": 5,
+      "clickedResults": [
+        "mat_vue3_guide",
+        "mat_vue3_composition"
+      ]
+    },
+    "timestamp": 1763403978391,
+    "aiProcessed": false
+  },
+  {
+    "id": "hist_test_002",
+    "userId": "test_user_001",
+    "action": "complete_session",
+    "targetType": "goal",
+    "targetId": "goal_js_advanced",
+    "metadata": {
+      "topic": "JavaScript闭包",
+      "duration": 1800000,
+      "understanding": 85
+    },
+    "timestamp": 1763400378391,
+    "aiProcessed": false
+  },
+  {
+    "id": "hist_test_003",
+    "userId": "test_user_001",
+    "action": "like_material",
+    "targetType": "material",
+    "targetId": "mat_blockchain_intro",
+    "metadata": {
+      "subject": "区块链基础",
+      "rating": 5,
+      "comment": "内容很详细，适合初学者"
+    },
+    "timestamp": 1763396778391,
+    "aiProcessed": false
+  },
+  {
+    "id": "hist_001",
+    "userId": "test_user_001",
+    "action": "search",
+    "targetType": "material",
+    "targetId": "mat_vue3_guide",
+    "metadata": {
+      "query": "Vue3 组合式API",
+      "resultsCount": 5,
+      "clickedResults": [
+        "mat_vue3_guide",
+        "mat_vue3_composition"
+      ]
+    },
+    "timestamp": 1763405670189,
+    "aiProcessed": false
+  },
+  {
+    "id": "hist_002",
+    "userId": "test_user_001",
+    "action": "complete_session",
+    "targetType": "goal",
+    "targetId": "goal_js_advanced",
+    "metadata": {
+      "topic": "JavaScript闭包",
+      "duration": 1800000,
+      "understanding": 85
+    },
+    "timestamp": 1763402070189,
+    "aiProcessed": false
+  },
+  {
+    "id": "hist_003",
+    "userId": "test_user_002",
+    "action": "search",
+    "targetType": "material",
+    "targetId": "mat_solidity_security",
+    "metadata": {
+      "query": "Solidity 安全漏洞",
+      "resultsCount": 8,
+      "clickedResults": [
+        "mat_solidity_security",
+        "mat_reentrancy"
+      ]
+    },
+    "timestamp": 1763398470189,
+    "aiProcessed": false
+  }
+]

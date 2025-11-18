@@ -1,0 +1,21 @@
+[
+  {
+    "id": "topic_001",
+    "title": "Vue3 Composition API最佳实践",
+    "description": "讨论Vue3中Composition API的使用技巧和最佳实践",
+    "creator": {
+      "name": "张三",
+      "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Zhang"
+    },
+    "views": 1250,
+    "discussions": 89,
+    "followers": 234,
+    "followed": true,
+    "createdAt": 1763236470189,
+    "tags": [
+      "Vue3",
+      "Composition API",
+      "前端开发"
+    ]
+  }
+]

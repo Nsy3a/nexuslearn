@@ -1,0 +1,38 @@
+import { test, expect } from '@playwright/test'
+
+test('完整流程：目标→计划→资料→搜索→需求→答案→验收→NFT', async ({ page }) => {
+  await page.goto('http://localhost:3000')
+  // 1. 创建目标与计划
+  await page.getByRole('link', { name: /学习/i }).click()
+  await page.getByLabel(/用户ID/i).fill('u-e2e')
+  await page.getByLabel(/学习目标/i).fill('CPA')
+  await page.getByLabel(/技能/i).fill('会计基础,练习题,复盘')
+  await page.getByRole('button', { name: /创建目标/i }).click()
+  await expect(page.getByText('目标已创建')).toBeVisible()
+  await page.getByRole('button', { name: /生成计划/i }).click()
+  await expect(page.getByText('计划已生成')).toBeVisible()
+  // 2. 资料录入与搜索
+  await page.getByRole('link', { name: /搜索/i }).click()
+  await page.getByLabel(/URL/i).fill('https://example.com/cpa')
+  await page.getByRole('button', { name: /录入URL/i }).click()
+  await expect(page.getByText('已录入')).toBeVisible()
+  await page.getByLabel(/关键词/i).fill('会计')
+  await page.getByRole('button', { name: /搜索/i }).click()
+  await expect(page.getByRole('cell', { name: /cpa/i })).toBeVisible()
+  // 3. 需求协作
+  await page.getByRole('link', { name: /协作/i }).click()
+  await page.getByLabel(/标题/i).fill('生成登录页')
+  await page.getByLabel(/预算/i).fill('100')
+  await page.getByLabel(/技术栈/i).fill('Vue3')
+  await page.getByRole('button', { name: /创建需求/i }).click()
+  await expect(page.getByText('需求已创建')).toBeVisible()
+  await page.getByLabel(/答案URI/i).fill('ipfs://QmAnswer')
+  await page.getByRole('button', { name: /提交答案/i }).click()
+  await expect(page.getByText('答案已提交')).toBeVisible()
+  await page.getByLabel(/内容哈希/i).fill('ipfs://QmFinal')
+  await page.getByLabel(/摘要/i).fill('登录方案')
+  await page.getByRole('button', { name: /验收/i }).click()
+  await expect(page.getByText('已验收并铸造NFT')).toBeVisible()
+  await page.getByRole('button', { name: /NFT/i }).click()
+  await expect(page.getByRole('cell', { name: /ipfs:\/\/QmFinal/i })).toBeVisible()
+})

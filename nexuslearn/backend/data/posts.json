@@ -1,0 +1,23 @@
+[
+  {
+    "id": "post_001",
+    "author": "张三",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Zhang",
+    "content": "刚刚完成了一个Vue3 + TypeScript的项目，Composition API真的比Options API灵活很多...",
+    "images": [],
+    "code": "",
+    "topics": [
+      "Vue3",
+      "TypeScript"
+    ],
+    "likes": [
+      1,
+      2,
+      3
+    ],
+    "comments": [],
+    "shares": 5,
+    "createdAt": 1763405670189,
+    "circle": "circle_web3"
+  }
+]

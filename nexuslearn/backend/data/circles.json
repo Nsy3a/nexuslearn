@@ -1,0 +1,38 @@
+[
+  {
+    "id": "circle_web3",
+    "name": "Web3.0技术圈",
+    "description": "讨论Web3.0技术、DApp开发、智能合约等话题",
+    "avatar": "https://api.dicebear.com/7.x/icons/svg?seed=web3",
+    "category": "技术",
+    "members": 1250,
+    "posts": 89,
+    "resources": 45,
+    "joined": true,
+    "createdAt": 1760817270189,
+    "tags": [
+      "Web3",
+      "区块链",
+      "智能合约",
+      "DApp"
+    ]
+  },
+  {
+    "id": "circle_ai_learning",
+    "name": "AI学习圈",
+    "description": "AI学习交流，分享机器学习、深度学习经验",
+    "avatar": "https://api.dicebear.com/7.x/icons/svg?seed=ai",
+    "category": "学习",
+    "members": 890,
+    "posts": 156,
+    "resources": 78,
+    "joined": true,
+    "createdAt": 1761681270189,
+    "tags": [
+      "AI",
+      "机器学习",
+      "深度学习",
+      "Python"
+    ]
+  }
+]
