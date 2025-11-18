@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NexusLearn MVP</title>
+  <style>
+    body{font-family:system-ui,Arial,sans-serif;margin:20px}
+    h1{font-size:20px;margin-bottom:10px}
+    section{border:1px solid #ddd;padding:12px;border-radius:8px;margin-bottom:12px}
+    label{display:block;margin:6px 0}
+    button{padding:6px 12px}
+    pre{background:#f6f8fa;padding:8px;overflow:auto}
+  </style>
+</head>
+<body>
+  <h1>NexusLearn MVP</h1>
+  <section>
+    <div>
+      <label>用户ID <input id="userId" value="u1" /></label>
+      <label>目标 <input id="goal" value="CPA" /></label>
+      <label>技能(逗号分隔) <input id="skills" value="会计基础,练习题,复盘" /></label>
+      <button id="btnGoal">创建目标</button>
+      <button id="btnPlan">生成计划</button>
+    </div>
+    <pre id="outGoal"></pre>
+    <pre id="outPlan"></pre>
+  </section>
+
+  <section>
+    <div>
+      <label>偏好格式 <input id="prefFormat" value="理论" /></label>
+      <label>规避类型 <input id="avoid" value="案例" /></label>
+      <button id="btnProfile">更新画像</button>
+    </div>
+    <pre id="outProfile"></pre>
+  </section>
+
+  <section>
+    <div>
+      <label>资料URL <input id="matUrl" value="https://example.com/doc" /></label>
+      <button id="btnIngestUrl">录入URL</button>
+      <label>上传文件名 <input id="upName" value="doc.txt" /></label>
+      <label>上传内容Base64 <input id="upData" value="SGVsbG8gTmV4dXNMZWFybg==" /></label>
+      <button id="btnUpload">上传</button>
+      <button id="btnListMat">列出资料</button>
+    </div>
+    <pre id="outMat"></pre>
+  </section>
+
+  <section>
+    <div>
+      <label>搜索词 <input id="searchQ" value="会计" /></label>
+      <label>过滤 Subject <input id="searchSubject" value="会计" /></label>
+      <button id="btnSearch">搜索</button>
+    </div>
+    <pre id="outSearch"></pre>
+  </section>
+
+  <section>
+    <div>
+      <label>协作标题 <input id="dmTitle" value="生成前端登录页" /></label>
+      <label>预算(USDC) <input id="dmBudget" value="100" /></label>
+      <button id="btnDemand">创建需求</button>
+      <label>答案内容URI <input id="ansUri" value="ipfs://Qm123" /></label>
+      <button id="btnAnswer">提交答案</button>
+      <button id="btnAccept">验收并铸造NFT</button>
+      <button id="btnNfts">列出NFT</button>
+    </div>
+    <pre id="outDemand"></pre>
+  </section>
+
+  <section>
+    <div>
+      <label>AI类型 <input id="aiType" value="lecture" /></label>
+      <button id="btnAiPlan">AI 规划</button>
+      <button id="btnAiGen">AI 生成</button>
+    </div>
+    <pre id="outAi"></pre>
+  </section>
+
+  <script src="/ui/app.js"></script>
+</body>
+</html>
+
