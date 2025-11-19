@@ -54,18 +54,38 @@ class Web3LearningPlatformLauncher:
         
         # 检查Node.js
         try:
-            result = subprocess.run(['node', '--version'], capture_output=True, text=True)
+            result = subprocess.run(['node', '--version'], capture_output=True, text=True, shell=True)
             node_version = result.stdout.strip()
-            print(f"✅ Node.js: {node_version}")
+            if node_version:
+                print(f"✅ Node.js: {node_version}")
+            else:
+                # 尝试使用PowerShell命令
+                result = subprocess.run(['powershell', '-Command', 'node --version'], capture_output=True, text=True)
+                node_version = result.stdout.strip()
+                if node_version:
+                    print(f"✅ Node.js: {node_version}")
+                else:
+                    print("❌ Node.js 未安装，请先安装Node.js >= 16.0.0")
+                    return False
         except FileNotFoundError:
             print("❌ Node.js 未安装，请先安装Node.js >= 16.0.0")
             return False
             
         # 检查npm
         try:
-            result = subprocess.run(['npm', '--version'], capture_output=True, text=True)
+            result = subprocess.run(['npm', '--version'], capture_output=True, text=True, shell=True)
             npm_version = result.stdout.strip()
-            print(f"✅ npm: {npm_version}")
+            if npm_version:
+                print(f"✅ npm: {npm_version}")
+            else:
+                # 尝试使用PowerShell命令
+                result = subprocess.run(['powershell', '-Command', 'npm --version'], capture_output=True, text=True)
+                npm_version = result.stdout.strip()
+                if npm_version:
+                    print(f"✅ npm: {npm_version}")
+                else:
+                    print("❌ npm 未安装，请先安装npm")
+                    return False
         except FileNotFoundError:
             print("❌ npm 未安装，请先安装npm")
             return False
@@ -80,10 +100,22 @@ class Web3LearningPlatformLauncher:
         
     def install_dependencies(self):
         """安装项目依赖"""
+        # 检查node_modules是否已存在
+        node_modules_path = self.frontend_path / "node_modules"
+        if node_modules_path.exists():
+            print("✅ 项目依赖已安装，跳过安装步骤")
+            return True
+            
         print("📦 安装项目依赖...")
         try:
-            os.chdir(self.frontend_path)
-            result = subprocess.run(['npm', 'install'], capture_output=True, text=True)
+            # 使用绝对路径和shell=True以提高Windows兼容性
+            result = subprocess.run(
+                ['npm', 'install'], 
+                cwd=self.frontend_path,
+                capture_output=True, 
+                text=True, 
+                shell=True
+            )
             if result.returncode == 0:
                 print("✅ 依赖安装成功！")
                 return True
@@ -98,16 +130,14 @@ class Web3LearningPlatformLauncher:
         """启动前端开发服务器"""
         print("🚀 启动前端开发服务器...")
         try:
-            os.chdir(self.frontend_path)
-            
-            # 启动Vite开发服务器
+            # 使用绝对路径和shell=True以提高Windows兼容性
             self.server_process = subprocess.Popen(
                 ['npm', 'run', 'dev'],
+                cwd=self.frontend_path,
                 stdout=subprocess.PIPE,
                 stderr=subprocess.PIPE,
                 text=True,
-                bufsize=1,
-                universal_newlines=True
+                shell=True
             )
             
             # 等待服务器启动
