@@ -1296,5 +1296,160 @@
         "provider": "fallback"
       }
     }
+  },
+  {
+    "id": "mat_dusy7b73",
+    "url": "https://example.com/test",
+    "respectsRobots": true,
+    "licenseRisk": "低",
+    "tags": {
+      "density": "入门",
+      "subject": "通用",
+      "form": "理论",
+      "language": "zh-CN",
+      "estimatedReadTime": 2,
+      "keywords": [
+        "学习",
+        "教育",
+        "知识"
+      ],
+      "qualityScore": 0.51
+    },
+    "qualityScore": 0.51,
+    "ipfsHash": "ipfs://bafy6f5635035f36ad500b4fc4bb7816bb72ef5594e1bcae44",
+    "aiProcessing": {
+      "steps": [
+        {
+          "step": "内容审核",
+          "result": {
+            "approved": true,
+            "violations": [],
+            "riskLevel": "low",
+            "confidence": 0.88
+          },
+          "duration": 612
+        },
+        {
+          "step": "智能分类",
+          "result": {
+            "density": "入门",
+            "subject": "通用",
+            "form": "理论",
+            "language": "zh-CN",
+            "estimatedReadTime": 2,
+            "keywords": [
+              "学习",
+              "教育",
+              "知识"
+            ],
+            "qualityScore": 0.51
+          },
+          "duration": 1315
+        },
+        {
+          "step": "知识图谱关联",
+          "result": {
+            "nodes": [
+              {
+                "id": "kg1",
+                "name": "编程基础",
+                "category": "计算机",
+                "relevance": 0.8
+              },
+              {
+                "id": "kg2",
+                "name": "算法设计",
+                "category": "数学",
+                "relevance": 0.7
+              },
+              {
+                "id": "kg3",
+                "name": "数据结构",
+                "category": "计算机",
+                "relevance": 0.9
+              }
+            ],
+            "edges": [
+              {
+                "source": "kg1",
+                "target": "kg3",
+                "relationship": "prerequisite",
+                "weight": 0.8
+              },
+              {
+                "source": "kg3",
+                "target": "kg2",
+                "relationship": "related",
+                "weight": 0.6
+              }
+            ],
+            "recommendations": [
+              "建议先学习编程基础",
+              "推荐相关的算法课程",
+              "可进阶到数据结构学习"
+            ]
+          },
+          "duration": 2232
+        },
+        {
+          "step": "去重检测",
+          "result": {
+            "isDuplicate": false,
+            "similarity": 0,
+            "duplicates": [],
+            "contentHash": "6f5635035f36ad500b4fc4bb7816bb72ef5594e1bcae44fa074c5e988fc4c0fe"
+          },
+          "duration": 2748
+        }
+      ],
+      "processingTime": 2748,
+      "knowledgeGraph": {
+        "nodes": [
+          {
+            "id": "kg1",
+            "name": "编程基础",
+            "category": "计算机",
+            "relevance": 0.8
+          },
+          {
+            "id": "kg2",
+            "name": "算法设计",
+            "category": "数学",
+            "relevance": 0.7
+          },
+          {
+            "id": "kg3",
+            "name": "数据结构",
+            "category": "计算机",
+            "relevance": 0.9
+          }
+        ],
+        "edges": [
+          {
+            "source": "kg1",
+            "target": "kg3",
+            "relationship": "prerequisite",
+            "weight": 0.8
+          },
+          {
+            "source": "kg3",
+            "target": "kg2",
+            "relationship": "related",
+            "weight": 0.6
+          }
+        ],
+        "recommendations": [
+          "建议先学习编程基础",
+          "推荐相关的算法课程",
+          "可进阶到数据结构学习"
+        ]
+      },
+      "duplicateCheck": {
+        "isDuplicate": false,
+        "similarity": 0,
+        "duplicates": [],
+        "contentHash": "6f5635035f36ad500b4fc4bb7816bb72ef5594e1bcae44fa074c5e988fc4c0fe"
+      }
+    }
   }
 ]
